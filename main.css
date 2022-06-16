@@ -1,0 +1,345 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+}
+
+p {
+    line-height: 1.65em;
+}
+
+.container {
+    width: 289px;
+    align-items: center;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: rgba(78,192,254,1);
+    background: -moz-linear-gradient(top, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(78,192,254,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(top, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(top, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(top, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(to bottom, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ec0fe', endColorstr='#3790d9', GradientType=0 );
+    padding-top: 90px;
+    color: #fff;
+    padding-bottom: 140px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer {
+    width: 500px;
+}
+
+.title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 700;
+    align-items: center;
+}
+
+.title span {
+    font-family: 'Ubuntu';
+    font-size: -webkit-xxx-large;
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 45px;
+    width: 363px;
+}
+
+.btn {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    color: #2e2a1b;
+    display: block;
+    width: 193px;
+    text-decoration: none;
+    background: #ffd429;
+    margin-top: 40px;
+    padding: 15px;
+    text-align: center;
+    /* margin-bottom: 210px; */
+    transition: all 0.5s ease;   
+}
+
+.btn:hover {
+    background: #d9860e;
+}
+
+.desktop {
+    margin-top: 70px;
+}
+
+.wait {
+    padding-top: 105px;
+    padding-bottom: 112px;
+}
+
+.section-title {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 30px;
+    padding-top: 90px;
+    padding-bottom: 80px;
+    text-align: center; 
+}
+
+.icon1 {
+    margin-left: 110px;
+}
+
+.passtime {
+    display: flex;
+    justify-content: space-between;
+}
+
+.freetime {
+  
+}
+
+.freetime-title {
+    font-size: 19px;
+    margin-left: 60px;
+}
+
+.freetime-text {
+    margin-left: 5px;
+    margin-top: 20px;
+    text-align: center;   
+}
+
+
+
+.travel {
+    /* width: 10px; */
+    margin-left: 50px;
+} 
+
+.icon2 {
+    margin-left: 100px;
+}
+
+.travel-title {
+    font-size: 19px;
+    margin-left: 36px;
+}
+
+.travel-text {
+    text-align: center;
+}
+
+.value {
+    margin-left: 0;
+}
+
+.icon3 {
+    /* margin-left: 10px; */
+    padding-left: 136px;;
+}
+
+.value-title {
+    text-align: center;
+}
+
+.value-text {
+        text-align: center;
+}
+
+.order {
+    height: 600px;
+    background: #ecf3f8;
+}
+
+
+.form {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+
+.form-action {
+    flex-direction: column;
+}
+    
+
+input, button {
+    display: flex;
+    width: 340px;
+    height: 45px;
+    padding-left: 25px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border: 2px solid #bbbbbb;
+    border-radius: 2px;
+}
+
+ .form-text {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 15px;
+    margin-bottom: 10px;
+ }
+
+.btn2 {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    color: #2e2a1b;
+    width: 340px;
+    text-decoration: none;
+    background: #ffd429;
+    padding-left: 90px;
+    padding-top: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s ease;   
+}
+
+.btn2:hover {
+    background: #d9860e;
+}
+
+.footer {
+    background: #164d7a;
+}
+
+.footer-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    height: 140px;
+    margin: 0;
+    padding-top: 60px;
+    text-align: center;
+}
+
+/* Responsive design */
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+    .p {
+        width: auto;
+    }
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 550px;
+        width: 100%;
+        align-items: center;
+    }
+    .wait .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .offer {
+        margin-left: 50px;
+    }
+    .btn {
+        margin-left: 125px;
+    }
+}
+
+/* 0 - 576px */
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+    .wrapper {
+        margin: 0;
+        padding: 0;
+        width: 100vh;
+    }
+    .logo {
+        margin-left: 10px;
+    }
+    .offer {
+        width:90% ;
+        margin-left: -50px;
+    }
+    .text {
+        width: 320px;
+        font-size: 18px;
+        margin: 20px 10;
+    }
+    .desktop {
+        max-width: 100%;
+        width: 300px;
+        height: 300px;
+        margin-top: 0; 
+        margin-right: 24em;
+    }
+    .btn {
+        margin: 0;
+    }
+    .wait .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .passtime {
+        display: flex;
+        flex-direction: column;
+    }
+    .freetime , .travel , .value {
+        margin: 0;
+        padding: 0;
+    }
+     img.icon1 , img.icon2 , img.icon3 {
+        margin-left: 8em;
+        padding: 0;
+    }
+    h3.freetime-title , h3.travel-title , h3.value-title {
+        margin-left: 3em;
+        padding: 0;
+    }
+    p.freetime-text , p.travel-text , p.value-text {
+        margin-left: 1em;
+        padding: 0;
+    }
+    h2.form {
+        margin-left: -1em;
+        font-size: 20px;
+        width: 90%
+    }
+    .footer-text {
+         font-size: 15px;
+         padding-right: 55%;
+    }
+}
